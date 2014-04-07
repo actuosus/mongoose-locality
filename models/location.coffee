@@ -6,6 +6,7 @@
 ###
 
 mongoose = require 'mongoose'
+Schema = mongoose.Schema
 
 LocationSchema = new Schema
   latitude: type: Number

@@ -6,9 +6,10 @@
 ###
 
 mongoose = require 'mongoose'
+Schema = mongoose.Schema
 
 StreetSchema = new Schema
   name: type: String
-  city: type: mongoose.Schema.ObjectId, ref: 'City'
+  city: type: Schema.ObjectId, ref: 'City'
 
 module.exports = StreetSchema
