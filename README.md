@@ -1,0 +1,1 @@
+Basic Mongoose models to store location specific information.
